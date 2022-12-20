@@ -1,254 +1,34 @@
-body{
-    background-color:white;
-    
-    
-  }
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  .header{
-    height: 60px;
+.title-n1{
     text-align: center;
-    background-color: white;
-    font-family: 'Lobster', cursive;
-    border-bottom: 2px solid silver;
-  }
-  .menu-deroulant{
-    height: 70px;
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 20px;
-    text-align: center;
-  }
-  .menu-deroulant li{
-    float: left;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    
-    border: 3px solid white;
-   
-  }
-  .menu-deroulant li a:link ,.menu-deroulant li a:visited{
-    display: block;
-    color:white;
-    background-color: blue;
-    height: 40px;
-    padding:6px 10px;
-    /*border-right: 1px solid silver;*/
-    text-align: center;
-    text-decoration: none;
-  }
-  .menu-deroulant li a:hover {background-color: silver;}
-  .menu-deroulant li a:active{background-color: brown;}
-  .menu-deroulant .sous-menu{
-    list-style-type: none;
-    display: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-  }
-  .menu-deroulant .sous-menu li{
-    float: none;
-    margin: 0;
-    padding: 0;
-    border-top:3px solid white;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;
+    border: 5px solid rgb(69, 206, 69);
+    box-shadow: 10px 5px 5px green ;
+    background-color:  rgba(69, 206, 69,0.4);;
 
-  }
-  .menu-deroulant .sous-menu li a:link ,.menu-deroulant  li a:visited{
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: rgb(0, 30, 199);
-  }
-  .menu-deroulant .sous-menu li a:hover{
-    background-color: rgb(107, 107, 107);
-  }
-
-  .menu-deroulant  li:hover .sous-menu{
-    display: block;
-  }
-
-  .title-text{
-    font-family: 'dancing-script', cursive;
-    color: rgb(0, 30, 199);
-    padding-bottom: 20px;
-    padding-top: 10px;
-  }
-
-  .img-st{
-   width: 700px;
-   height: 500px;
-   font-weight:bold;
-   margin: 20px;
-
-  }
-  .img-1{
+}
+.img-cat{
     height: 500px;
-    width: 500px;
-    margin-left: 30px;
-   
-  }
-  .img-1:hover{
-    width: 600px;
-    transition: all 0.3s;
-  }
-.content{
-display: flex;
+    width: 900px;
+    image-orientation: flip;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin-left: 200px;
 }
-.cont-bloc{
-    height: 500px;
-    width: 500px;
-    
+*{
+    text-align: justify;
+    font-size: 20px;
 }
-.footer-st{
-    height: 30px;
-    border-top: 2px solid silver;
-    border-bottom: 10px solid silver;
-    padding: 10px;
+.text-lion{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid black;
 }
-.parag{
-  padding: 10px;
-  font-size: 20px;;
-  text-align: justify;
-  font-family: 'great-vibes', cursive;
-}
-.footer-text-end{
-  font-size: 30px;
-  text-align: center;
-  font-family: 'utra', cursive;
+.text-lion:hover{
+    font-size: 30px;
+    border: 1px solid rgb(30, 30, 245);
+    background-color:  rgba(69, 206, 69,0.4);
 }
 
-@media only screen and (max-width: 300px) {
-  body{
-    background-color:white;
-    
-    
-  }
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  .header{
-    height: 60px;
-    text-align: center;
-    background-color: white;
-    font-family: 'Lobster', cursive;
-    border-bottom: 2px solid silver;
-  }
-  .menu-deroulant{
-    height: 70px;
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 20px;
-    text-align: center;
-  }
-  .menu-deroulant li{
-    display: flex;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    
-    border: 3px solid white;
-   
-  }
-  .menu-deroulant li a:link ,.menu-deroulant li a:visited{
-    display: block;
-    color:white;
-    background-color: blue;
-    height: 40px;
-    padding:6px 10px;
-    /*border-right: 1px solid silver;*/
-    text-align: center;
-    text-decoration: none;
-  }
-  .menu-deroulant li a:hover {background-color: silver;}
-  .menu-deroulant li a:active{background-color: brown;}
-  .menu-deroulant .sous-menu{
-    list-style-type: none;
-    display: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-  }
-  .menu-deroulant .sous-menu li{
-    float: none;
-    margin: 0;
-    padding: 0;
-    border-top:3px solid white;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;
 
-  }
-  .menu-deroulant .sous-menu li a:link ,.menu-deroulant  li a:visited{
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: rgb(0, 30, 199);
-  }
-  .menu-deroulant .sous-menu li a:hover{
-    background-color: rgb(107, 107, 107);
-  }
-
-  .menu-deroulant  li:hover .sous-menu{
-    display: block;
-  }
-
-  .title-text{
-    font-family: 'dancing-script', cursive;
-    color: rgb(0, 30, 199);
-    padding-bottom: 20px;
-    padding-top: 10px;
-  }
-
-  .img-st{
-   width: 700px;
-   height: 500px;
-   font-weight:bold;
-   margin: 20px;
-
-  }
-  .img-1{
-    height: 500px;
-    width: 500px;
-    margin-left: 30px;
-   
-  }
-  .img-1:hover{
-    width: 600px;
-    transition: all 0.3s;
-  }
-.content{
-display: flex;
-}
-.cont-bloc{
-    height: 500px;
-    width: 500px;
-    
-}
-.footer-st{
-    height: 30px;
-    border-top: 2px solid silver;
-    border-bottom: 10px solid silver;
-    padding: 10px;
-}
-.parag{
-  padding: 10px;
-  font-size: 20px;;
-  text-align: justify;
-  font-family: 'great-vibes', cursive;
-}
-.footer-text-end{
-  font-size: 30px;
-  text-align: center;
-  font-family: 'utra', cursive;
-}
-
-  
-  
-  }
